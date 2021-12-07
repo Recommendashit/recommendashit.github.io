@@ -1,0 +1,276 @@
+/* Icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  color: #7cd7c2;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  color: #7cd7c2;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+body {
+  background-color: #fff;
+}
+
+/*Header & Navbar */
+.header h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  margin-top: 1rem;
+}
+
+.navigasi {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Products */
+.products {
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+}
+
+.products p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+  margin-top: 2rem;
+}
+
+.products h2 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 1rem;
+}
+
+.product-img img {
+  width: 50rem;
+}
+
+/* Podcast */
+.podcast {
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+}
+
+.podcast p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+  margin-top: 2rem;
+}
+
+.podcast h2 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 1rem;
+}
+
+.podcast-img img {
+  width: 50rem;
+}
+
+.read a:link,
+a:visited {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: #57fc16;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+}
+
+.read a:hover,
+a:active {
+  color: #7cd7c2;
+}
+
+/* Footer */
+.footer {
+  background-color: #010101;
+  padding: 3rem;
+}
+
+.contact p {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.logo a {
+  margin-left: -1.3rem;
+}
+
+/* Items */
+
+.items {
+  margin-top: 1rem;
+}
+
+.item {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Overlay */
+.overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  transition: 0.8s;
+  padding: 5rem 0;
+}
+
+.overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.overlay img {
+  max-height: 100%;
+}
+
+.overlay:target img {
+  animation: zoomFade 1s;
+}
+
+.overlay .close {
+  position: absolute;
+  top: 0;
+  text-decoration: none;
+  margin-top: 3rem;
+  margin-left: 17rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+/* animasi */
+@keyframes zoomFade {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
